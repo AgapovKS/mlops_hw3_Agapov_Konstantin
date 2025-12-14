@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  blue:
+    image: ml-service:v1
+    environment:
+      MODEL_VERSION: v1.0.0
+    ports:
+      - "8081:8080"
